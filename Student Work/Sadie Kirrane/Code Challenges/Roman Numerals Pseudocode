@@ -1,0 +1,31 @@
+def to_roman(number):
+
+	IF number >= 1000 THEN
+		return "M" + toRoman(number - 1000)
+	ELSE IF number >= 900 THEN
+		return "CM" + toRoman(number - 900)
+	ELSE IF number >= 900 THEN
+		return "D" + toRoman(number - 500)
+	ELSE IF number >= 900 THEN
+		return "CD" + toRoman(number - 400)
+	ELSE IF number >= 900 THEN
+		return "C" + toRoman(number - 100)
+	ELSE IF number >= 900 THEN
+		return "XC" + toRoman(number - 90)
+	ELSE IF number >= 900 THEN
+		return "L" + toRoman(number - 50)
+	ELSE IF number >= 900 THEN
+		return "XL" + toRoman(number - 40)
+	ELSE IF number >= 900 THEN
+		return "X" + toRoman(number - 10)
+	ELSE IF number >= 900 THEN
+		return "IX" + toRoman(number - 9)
+	ELSE IF number >= 900 THEN
+		return "V" + toRoman(number - 5)
+	ELSE IF number >= 900 THEN
+		return "IV" + toRoman(number - 4)
+	ELSE IF number >= 900 THEN
+		return "I" + toRoman(number - 1)
+	ELSE
+		return ""
+	ENDIF
