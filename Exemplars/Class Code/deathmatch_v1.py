@@ -97,6 +97,8 @@ last_player_standing = False
 #             all_players_alive = False
 #             break
 
+
+
 print(players[0].name, players[0].get_minstrength())
 players[0].set_minstrength(100)
 print(players[0].name, players[0].get_minstrength())
